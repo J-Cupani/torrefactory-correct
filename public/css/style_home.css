@@ -1,0 +1,48 @@
+.catalogue{
+    margin-top: 8%;
+}
+.link-products{
+    font-size: x-large;
+    color: #30475e;
+}
+
+.products-card {
+    margin: 3.4rem;
+    border: #30475e  solid 1px;
+    height: 6rem;
+    background-color: rgba(255,255,255,0.7);
+
+}
+
+.section-coeur-desktop{
+    margin: 15%;
+}
+.section-coeur-desktop .card{
+    border: none;
+}
+.coeur-products-card{
+    margin-top: 4rem;
+
+}
+
+.navbar{
+    background-color: #30475E;
+    height: 80px;
+    margin-bottom: 0px;
+}
+
+@media screen and (min-width: 427px){
+    .section-coeur-mobile{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 426px ){
+
+    .section-coeur-desktop{
+        display: none;
+    }
+
+}
+
+

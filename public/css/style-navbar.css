@@ -1,0 +1,149 @@
+@font-face {
+    font-family: AbhayaLibre;
+    src: url(../fonts/AbhayaLibre-Regular.ttf);
+}
+
+.menu-mobile{
+    display : none;
+}
+
+.navbar{
+    background-color: #30475E;
+    height: 80px;
+    margin-bottom: 150px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.nav-link{
+    padding-bottom: 90px;
+    }
+
+.nav-text{
+    color: #FFF2E5;
+    font-family: AbhayaLibre;
+
+}
+
+.nav-text:hover{
+font-weight: 500;
+}
+
+.picto-user{
+    padding-bottom: 90px;
+}
+
+.user{
+    color: #FFF2E5;
+}
+
+.picto-cart{
+    padding-bottom: 90px;
+}
+
+.cart{
+    color: #FFF2E5;
+}
+
+
+.logo{
+
+    width: 150px;
+    height: 150px;
+    padding-top: 10px;
+
+}
+
+.logo-TF{
+    width: 150px;
+    height: 150px;
+}
+
+.picto-cart-mobile{
+
+    display: none;
+}
+
+.menu-burger{
+    display: none;
+}
+
+.menu-checkbox{
+    display: none;
+}
+
+
+@media screen and (max-width: 768px){
+    .menu-mobile{
+        display: block;
+        padding-bottom: 70px;
+        padding-left: 10px;
+    }
+
+    .mobile{
+        color: #FFF2E5;
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+    }
+    .nav-link{
+        display: none;
+    }
+
+    .picto-user{
+        display: none;
+    }
+
+    .cart{
+        color: #FFF2E5;
+        padding-right: 30px;
+    }
+
+    .picto-cart{
+        display: none;
+    }
+
+    .picto-cart-mobile{
+        display: block;
+        padding-bottom: 70px;
+    }
+
+    .menu-checkbox:checked ~ .menu-burger{
+        display: block;
+    }
+
+    .menu-burger{
+        background-color: #30475E;
+        opacity: 0.9;
+
+    }
+
+    #menu-burger{
+        list-style: none;
+        position: absolute;
+        width: 187px;
+        height: 446px;
+        left: 0px;
+        top: 0px;
+        padding-top: 100px;
+
+    }
+
+    #menu-burger a{
+        color: #FFF2E5;
+        line-height: 60px;
+        font-family: AbhayaLibre;
+
+
+    }
+
+    a:hover{
+        color: #FFF2E5;
+        font-weight: 500;
+
+    }
+
+}
+

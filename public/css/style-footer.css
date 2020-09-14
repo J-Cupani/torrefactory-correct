@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+#footer {
+    font-family: Roboto;
+    height: auto;
+    background: #30475E;
+    color: #FFF2E5;
+    text-decoration: none;
+}
+
+#footer a{
+    color: #FFF2E5;
+    text-decoration: none;
+}
+
+#footer h5, d1{
+    font-family: RobotoBold;
+}
+
+#logo-footer{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: -100px;
+}
+
+#service{
+    margin-top : 100px;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    #footer div, h5{
+        text-align: left;
+    }
+
+    #picto{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}

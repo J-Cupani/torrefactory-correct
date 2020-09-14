@@ -1,0 +1,38 @@
+/*Style panier */
+.panier-body{
+    background-color: #ededed;
+}
+.panier{
+    background-color: white;
+}
+.chrono-bar{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.chrono-bar1{
+    color: #FFF2E5;
+}
+.chrono-bar2{
+    color: #30475e;
+    background-color: #D4B792;
+}
+
+.panier-price{
+    background-color: #D4B792;
+    height: 440px;
+}
+.panier .card {
+    border: none;
+}
+.product-line{
+    background-color: #E0E3E7;
+}
+.buttonPanier{
+    border: none;
+    color: #FFF2E5;
+    background-color: #30475e;
+}
+.case-services{
+color: #FFF2E5;
+    background-color: #30475e;
+}

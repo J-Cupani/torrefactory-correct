@@ -1,0 +1,23 @@
+.titreproduit {
+    background-color: #30475e;
+    padding: 0 1rem 0 1rem;
+    color: #FFF2E5;
+}
+
+.produit {
+    border-color: #30475e;
+    border-width: 3px;
+    color: #30475e;
+}
+
+.buttonArticle {
+    background-color: #D4B792;
+    border: none;
+    color: #FFF2E5;
+}
+
+.produitCatalogue:hover {
+    background-color: #D4B792;
+    border-radius: 0px;
+}
+

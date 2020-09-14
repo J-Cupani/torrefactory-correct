@@ -1,0 +1,29 @@
+.product{
+    background-color: #E0E3E7;
+}
+
+.buttonAchat {
+    background-color: #30475E;
+    border: none;
+    color: #FFF2E5;
+}
+
+.buttonDetail {
+    background-color: #BF935C;
+    border: none;
+    color: #FFF2E5;
+}
+
+
+.link-products{
+    font-size: x-large;
+    color: #30475e;
+}
+
+.products-card {
+    margin: 3.4rem;
+    border: #30475e  solid 1px;
+    height: 6rem;
+    background-color: rgba(255,255,255,0.7);
+
+}
